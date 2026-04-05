@@ -1,0 +1,16 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Installing Dependencies",
+      "command": "cd photo-sharing-v1 && npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "start": {
+    "name": "npm start",
+    "command": "cd photo-sharing-v1 && npm start",
+    "runAtStart": true
+  }
+}
